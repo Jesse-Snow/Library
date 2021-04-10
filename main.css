@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.form {
+  display:flex;
+  flex-direction: column;
+  width:200px;
+  border:2px solid black;
+  gap:10px;
+  padding:20px;
+  margin-bottom:10px;
+}
+.form > span {
+  line-height: 5px;
+}
+#submit {
+  padding:10px 30px;
+}
+
+.book {
+  background-color:darkgoldenrod;
+  width: 25%;
+  padding:20px;
+  border-radius: 15px;
+}
+.book > ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
