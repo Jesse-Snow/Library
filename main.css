@@ -1,5 +1,8 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&display=swap');* 
+
+{
   box-sizing: border-box;
+  /* Add margin and padding 0 */
 }
 
 .form {
@@ -18,14 +21,23 @@
   padding:10px 30px;
 }
 
-.book {
-  background-color:darkgoldenrod;
-  width: 25%;
-  padding:20px;
-  border-radius: 15px;
+#library {
+  display:flex;
+  flex-wrap:wrap;
 }
-.book > ul {
-  list-style-type: none;
-  margin:0;
-  padding:0;
+#library > * {
+  width:400;
+}
+
+.book {
+  background: rgb(191,230,186);
+  background: linear-gradient(90deg, rgb(132, 199, 123) 37%, rgb(151, 182, 122) 84%);
+  padding:20px;
+  margin:10px 20px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+  color:white;
+  font-size: 23px;
+  line-height: 40px;
+  font-family: 'Crimson Text', serif;
 }

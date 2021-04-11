@@ -19,8 +19,8 @@ function addBooksToLibrary(){
   nameInput.value = '';
   authorInput.value = '';
   readInput.checked = false;
-  console.log(allBooks)
-  showBooks()
+  console.log(allBooks); // Delete
+  showBooks();
 }
 
 function showBooks(){
@@ -31,7 +31,7 @@ function showBooks(){
       newBook.className = 'book';
       let bookInfo = document.createElement('p');
       bookInfo.innerHTML = `
-      Nome:${value.name} <br> 
+      Livro:${value.name} <br> 
       Autor:${value.author} <br>
       Páginas:${value.pages} <br>
       Lido:${wasReaded(value)} `;
