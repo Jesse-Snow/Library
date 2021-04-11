@@ -2,7 +2,25 @@
 
 {
   box-sizing: border-box;
-  /* Add margin and padding 0 */
+  margin:0;
+  padding:0;
+  font-family: 'Crimson Text', serif;
+}
+
+.mainHeader {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(245, 185, 111);
+  padding:80px;
+}
+.mainHeader__img > img{
+  width:125px;
+}
+.mainHeader__txt {
+  font-size:40px;
+  margin-left:20px;
+  color:rgb(49, 39, 39);
 }
 
 .form {
@@ -16,6 +34,7 @@
 }
 .form > span {
   line-height: 5px;
+  font-size:19px;
 }
 #submit {
   padding:10px 30px;
